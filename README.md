@@ -12,7 +12,7 @@ Users are also able to delete comments, which will delete every user's comments.
 
 ### How to run
 
-Run `git clone https://github.com/akeimach/article-scraper.git` to clone the files to your local machine, then `npm init` to run the install.
+Run `git clone https://github.com/developer7132/article-scraper.git` to clone the files to your local machine, then `npm init` to run the install.
 
 
 ### Packages used
