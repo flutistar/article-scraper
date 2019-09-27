@@ -1,0 +1,21 @@
+<div class="card">
+  <div class="card-header">
+    <a href={{link}} target='_blank'>{{title}}</a>
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-lg-8">
+        <p>{{summary}}</p>
+      </div>
+      <div class="col-lg-4">
+        {{#if saved}}
+          <button class="btn btn-secondary unsave-article" data={{_id}}>Delete From Saved</button>
+          <button class="btn btn-secondary article-notes" data={{_id}}>Article Notes</button>
+        {{else}}
+          <button class="btn btn-secondary save-article" data={{_id}}>Save Article</button>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</div>
+<br>
