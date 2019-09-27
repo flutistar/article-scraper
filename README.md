@@ -10,8 +10,6 @@ Every time a user scrapes from Medium, the articles are saved in MongoDB. The he
 
 Users are also able to delete comments, which will delete every user's comments.
 
-This app is hosted on Heroku.
-
 ### How to run
 
 Run `git clone https://github.com/akeimach/article-scraper.git` to clone the files to your local machine, then `npm init` to run the install.
